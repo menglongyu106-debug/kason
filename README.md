@@ -4,6 +4,30 @@
 
 > 重要说明：本仓库只是临时控制台，不是正式生产仓库，也不是带教主仓库的 fork。当前不连接 `yayathink00-png/VIP-THINK-Project`，不上传媒体文件、不上传账号信息、不保存浏览器登录状态。
 
+## 用户预览入口
+
+用户视角 HTML 预览页：
+
+[打开 AI 视频自动化流程预览](https://menglongyu106-debug.github.io/kason/)
+
+如果上面的链接暂时打不开，说明 GitHub Pages 还没有开启。请在仓库页面进入：
+
+```text
+Settings -> Pages -> Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: /docs
+Save
+```
+
+Pages 生效后，预览地址就是：
+
+```text
+https://menglongyu106-debug.github.io/kason/
+```
+
+HTML 源文件在 [`docs/index.html`](docs/index.html)。这个页面只做流程演示：不接入即梦、不生成视频、不保存状态、不包含媒体或账号信息。
+
 ## 当前目标
 
 把一次 AI 视频制作流程整理成可复用的半自动生产线：
@@ -61,6 +85,7 @@
 
 ## 可视化查看方式
 
+- 用户预览页：打开 [`docs/index.html`](docs/index.html)，或启用 Pages 后访问 `https://menglongyu106-debug.github.io/kason/`。
 - 仓库首页：直接看本 README 的状态表和检查项。
 - 单段 preflight：打开 [`preflight/`](preflight/) 下对应 Segment 的 Markdown 文件。
 - 模板：打开 [`templates/`](templates/) 查看可复制的 checklist。
